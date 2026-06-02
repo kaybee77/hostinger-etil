@@ -1,0 +1,18 @@
+# GitHub language detection (Linguist)
+#
+# This repository contains a legacy static HTML site (root index.html and the
+# /about, /services, /team, /contact, /proof folders, plus /css and /js) that
+# predates the Next.js application in /app. Those files inflate the HTML/CSS
+# counts and obscure the real Next.js / TypeScript stack on GitHub.
+#
+# Marking them as vendored excludes them from the language statistics (and
+# collapses them in diffs) without removing them from the repository.
+
+/index.html linguist-vendored
+/about/** linguist-vendored
+/services/** linguist-vendored
+/team/** linguist-vendored
+/contact/** linguist-vendored
+/proof/** linguist-vendored
+/css/** linguist-vendored
+/js/** linguist-vendored

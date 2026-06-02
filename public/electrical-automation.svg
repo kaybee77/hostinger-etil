@@ -1,0 +1,31 @@
+<svg width="800" height="480" viewBox="0 0 800 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="800" y2="480" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#111f34"/>
+      <stop offset="1" stop-color="#2c557e"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4dfcb8"/>
+      <stop offset="1" stop-color="#1bd9c9"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="480" rx="32" fill="url(#bg3)"/>
+  <rect x="110" y="120" width="240" height="240" rx="32" fill="rgba(255,255,255,0.08)"/>
+  <rect x="140" y="150" width="180" height="180" rx="26" fill="rgba(77,252,184,0.18)"/>
+  <rect x="520" y="130" width="200" height="280" rx="30" fill="rgba(255,255,255,0.12)"/>
+  <rect x="550" y="160" width="140" height="220" rx="24" fill="rgba(29,217,201,0.15)"/>
+  <path d="M170 180H280" stroke="#ffffff" stroke-width="12" stroke-linecap="round"/>
+  <path d="M170 220H280" stroke="#ffffff" stroke-width="12" stroke-linecap="round" opacity="0.8"/>
+  <path d="M170 260H280" stroke="#ffffff" stroke-width="12" stroke-linecap="round" opacity="0.8"/>
+  <path d="M560 190H680" stroke="#ffffff" stroke-width="14" stroke-linecap="round"/>
+  <path d="M560 240H680" stroke="#ffffff" stroke-width="14" stroke-linecap="round"/>
+  <path d="M560 290H680" stroke="#ffffff" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="600" cy="230" r="26" fill="#ffffff"/>
+  <circle cx="600" cy="230" r="12" fill="#111f34"/>
+  <path d="M235 325L350 250" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+  <path d="M350 250L460 325" stroke="#4dfcb8" stroke-width="12" stroke-linecap="round"/>
+  <path d="M480 280H540" stroke="#ffffff" stroke-width="12" stroke-linecap="round"/>
+  <path d="M525 250L575 210" stroke="#ffffff" stroke-width="12" stroke-linecap="round"/>
+  <path d="M525 310L575 350" stroke="#ffffff" stroke-width="12" stroke-linecap="round"/>
+  <text x="400" y="430" text-anchor="middle" fill="#f5f7fb" font-family="Inter, system-ui, sans-serif" font-size="32" font-weight="700">Electrical &amp; Automation</text>
+</svg>

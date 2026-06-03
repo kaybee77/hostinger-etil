@@ -751,6 +751,14 @@ nav a:hover {
   margin: 0;
 }
 
+.contact-detail a {
+  display: block;
+}
+
+.contact-detail a + a {
+  margin-top: 0.2rem;
+}
+
 .footer-nav {
   display: flex;
   flex-wrap: wrap;

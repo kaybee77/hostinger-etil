@@ -30,6 +30,43 @@ export default function AboutPage() {
         </div>
       </section>
 
+      <section className="section section-muted">
+        <div className="wrap about-features">
+          <article className="about-feature">
+            <div className="about-feature-image">
+              <Image
+                src="/wwa.png"
+                alt="Who we are — ETIL's engineering supply team"
+                width={720}
+                height={480}
+                priority
+              />
+            </div>
+            <div className="about-feature-content">
+              <span className="eyebrow">Who we are</span>
+              <h2 className="heading-line">A team built for engineering supply excellence</h2>
+              <p className="muted">We are a UK-based engineering supply specialist focused on delivering tailored sourcing and logistics solutions across West Africa. Our experienced team combines global supplier reach with local market insight to support asset-intensive industries.</p>
+            </div>
+          </article>
+          <article className="about-feature">
+            <div className="about-feature-image">
+              <Image
+                src="/wwd.png"
+                alt="What we do — connecting clients with the right products and partners"
+                width={720}
+                height={480}
+                priority
+              />
+            </div>
+            <div className="about-feature-content">
+              <span className="eyebrow">What we do</span>
+              <h2 className="heading-line">We connect clients with the right products and partners</h2>
+              <p className="muted">From sourcing engineering components to managing logistics, compliance, and project delivery, we help clients simplify the supply chain and access reliable equipment for industrial, automotive, and infrastructure projects.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
       <section className="section">
         <div className="wrap two-col">
           <div>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
+  <title id="title">Who we are illustration</title>
+  <desc id="desc">Illustration of a team, globe and supporting network to represent engineering supply expertise.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f2140" />
+      <stop offset="100%" stop-color="#173860" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2f6ef0" />
+      <stop offset="100%" stop-color="#f7b731" />
+    </linearGradient>
+  </defs>
+  <rect width="960" height="640" rx="48" fill="url(#bg)" />
+  <circle cx="360" cy="280" r="120" fill="url(#accent)" opacity="0.14" />
+  <path d="M234 460c0-68 55-123 123-123s123 55 123 123" fill="none" stroke="#fff" stroke-opacity="0.25" stroke-width="24" stroke-linecap="round" />
+  <circle cx="357" cy="210" r="70" fill="#fff" opacity="0.92" />
+  <circle cx="357" cy="210" r="42" fill="#0f2140" />
+  <path d="M280 342c18-18 43-30 70-30s52 12 70 30" fill="none" stroke="#fff" stroke-width="22" stroke-linecap="round" />
+  <path d="M520 138h240a24 24 0 0 1 24 24v240a24 24 0 0 1-24 24H520a24 24 0 0 1-24-24V162a24 24 0 0 1 24-24z" fill="rgba(255,255,255,0.08)" stroke="#fff" stroke-opacity="0.18" stroke-width="8" />
+  <path d="M564 192h152v52H564zm0 88h152v52H564z" fill="rgba(255,255,255,0.16)" />
+  <rect x="570" y="310" width="36" height="36" rx="10" fill="#fff" opacity="0.7" />
+  <rect x="620" y="310" width="36" height="36" rx="10" fill="#fff" opacity="0.7" />
+  <circle cx="707" cy="487" r="76" fill="rgba(247,183,49,0.13)" />
+  <path d="M669 433h76l24 29-24 29h-76l-24-29 24-29z" fill="#fff" opacity="0.85" />
+  <path d="M716 407a12 12 0 1 1-24 0 12 12 0 0 1 24 0zm-20 76a12 12 0 1 1 24 0 12 12 0 0 1-24 0z" fill="#0f2140" />
+  <path d="M440 94l240 220" stroke="rgba(247,183,49,0.5)" stroke-width="18" stroke-linecap="round" />
+</svg>

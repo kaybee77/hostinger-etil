@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -11,6 +12,16 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <main>
+      <section className="page-top-banner">
+        <Image
+          src="/about.png"
+          alt="ETIL global supply across automotive, industrial, logistics, hospitality, education, and household sectors"
+          fill
+          priority
+          sizes="100vw"
+        />
+      </section>
+
       <section className="hero section-tight">
         <div className="wrap">
           <span className="eyebrow">About ETIL</span>

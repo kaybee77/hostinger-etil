@@ -83,7 +83,7 @@ export default function ServicesPage() {
   return (
     <main>
       <section className="page-top-banner">
-        <Image src="/indutrial.png" alt="Industrial supplies banner" fill priority sizes="100vw" />
+        <Image src="/industrypage.png" alt="Industrial supplies banner" fill priority sizes="100vw" />
       </section>
 
       <section className="hero section-tight">

@@ -14,7 +14,7 @@ export default function GeneralPage() {
     <main>
       <section className="page-top-banner">
         <Image
-          src="/generalsupplies.png"
+          src="/generalpage.png"
           alt="General supplies banner"
           fill
           priority

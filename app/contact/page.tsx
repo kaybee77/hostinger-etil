@@ -50,7 +50,7 @@ export default function ContactPage() {
               <span className="contact-detail-icon" aria-hidden="true">✉️</span>
               <div>
                 <span className="contact-detail-label">Email</span>
-                <a href="mailto:info@exceltradeint.com">info@exceltradeint.com</a> <br />
+                <a href="mailto:info@exceltradeint.com">info@exceltradeint.com</a>
                 <a href="mailto:Sales@exceltradeint.co.uk">Sales@exceltradeint.co.uk</a>
               </div>
             </div>

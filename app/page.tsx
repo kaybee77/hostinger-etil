@@ -14,6 +14,16 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <main>
+      <section className="page-top-banner">
+        <Image
+          src="/home.png"
+          alt="ETIL industrial supply — petrochemical plant with pumps, valves, motors, drives, and control panels"
+          fill
+          priority
+          sizes="100vw"
+        />
+      </section>
+
       <section className="hero">
         <div className="wrap hero-grid">
           <div>

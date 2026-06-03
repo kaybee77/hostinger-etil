@@ -15,7 +15,7 @@ export default function Header() {
     <header className="site-header">
       <div className="header-inner">
         <Link href="/" className="logo" onClick={close}>
-          <img src="/logo.svg" alt="Excel Trade International Ltd" className="logo-image" />
+          <img src="/etillogo.jpeg" alt="Excel Trade International Ltd" className="logo-image" />
           <span className="logo-text">ETIL</span>
         </Link>
 

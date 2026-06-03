@@ -912,10 +912,10 @@ nav a:hover {
   }
 }
 
-/* Logo (SVG wordmark/mark) */
+/* Logo (circular ETIL emblem) */
 .logo-image {
-  object-fit: contain;
-  border-radius: 0.5rem;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 /* Active nav link */

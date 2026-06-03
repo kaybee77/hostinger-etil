@@ -1,7 +1,0 @@
-<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="120" height="120" rx="28" fill="#0D1D32" />
-  <circle cx="60" cy="60" r="32" stroke="#F7B731" stroke-width="6" />
-  <path d="M41 60C41 52.268 47.268 46 55 46H65C72.732 46 79 52.268 79 60C79 67.732 72.732 74 65 74H55C47.268 74 41 67.732 41 60Z" stroke="#F7B731" stroke-width="4" />
-  <path d="M55 35L63 47L51 47L55 35Z" fill="#F7B731" />
-  <text x="50%" y="108" fill="#F7B731" font-family="Inter, sans-serif" font-size="18" font-weight="700" text-anchor="middle">ETIL</text>
-</svg>

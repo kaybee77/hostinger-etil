@@ -4,7 +4,6 @@ export const navigation = [
   { label: "Vehicles", href: "/vehicles" },
   { label: "Industrial", href: "/services" },
   { label: "General", href: "/general" },
-  { label: "Clients", href: "/clients" },
   { label: "Team", href: "/team" },
   { label: "Contact", href: "/contact" },
 ];
@@ -40,18 +39,4 @@ export const overviewCards = [
     href: "/general",
     image: "/generalsupplies.png",
   },
-];
-
-export const clients = [
-  "TotalEnergies",
-  "Vivo Energy",
-  "GoEnergy",
-  "GOIL",
-  "Newmont Ghana",
-  "Golden Star",
-  "Volta River Authority",
-  "Tema Oil Terminal",
-  "Quantum Terminals Limited",
-  "Flowtech Engineering Co. Ltd.",
-  "Aamsco Engineering Services",
 ];

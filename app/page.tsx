@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { overviewCards, clients } from "../lib/siteData";
+import { overviewCards } from "../lib/siteData";
 import RotatingGlobe from "../components/RotatingGlobe";
 
 export const metadata: Metadata = {
@@ -92,22 +92,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="section section-muted">
-        <div className="wrap">
-          <div className="proof-row">
-            <div>
-              <span className="eyebrow">Trusted clients</span>
-              <h2>Serving West Africa&apos;s industrial leaders</h2>
-            </div>
-            <Link href="/clients" className="btn btn-ghost">See all clients</Link>
-          </div>
-          <div className="client-tags">
-            {clients.map((client) => (
-              <span className="client-tag" key={client}>{client}</span>
-            ))}
-          </div>
-        </div>
-      </section>
 
       <section className="section">
         <div className="wrap">

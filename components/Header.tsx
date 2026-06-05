@@ -39,8 +39,9 @@ export default function Header() {
         >
           <ul>
             {navigation.map((item) => {
+              const currentPath = pathname ?? "";
               const isActive =
-                item.href === "/" ? pathname === "/" : pathname.startsWith(item.href);
+                item.href === "/" ? currentPath === "/" : currentPath.startsWith(item.href);
               return (
                 <li key={item.href}>
                   <Link

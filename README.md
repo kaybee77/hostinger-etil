@@ -54,8 +54,7 @@ app/
   team/                 Team page
   contact/              Contact form
   privacy/              Privacy policy
-  api/enquiry/          Contact form handler (Resend)
-  api/vehicles/         Vehicles API route
+pages/api/              Contact form and vehicles API routes
   sitemap.ts            Dynamic sitemap
   robots.ts             Robots.txt
   manifest.ts           Web app manifest

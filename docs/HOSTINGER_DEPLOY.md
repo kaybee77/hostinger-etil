@@ -42,6 +42,6 @@ Redeploy after changing env vars.
 - `@` ALIAS → `exceltradeint.com.cdn.hstgr.net.`
 - `www` CNAME → `www.exceltradeint.com.cdn.hstgr.net.`
 
-## Note on API route path
+## Note on API routes
 
-The contact form uses `/api/enquiry` (not `/api/contact`) because Hostinger shared hosting blocks the `contact` directory name during builds.
+API handlers live in `pages/api/` (not `app/api/`) because Hostinger archive builds hit permission errors on `app/api/*` directories.

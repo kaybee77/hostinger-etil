@@ -13,7 +13,7 @@ Built with **Next.js 14 App Router**, **React 18**, and **TypeScript**. Replaces
 | Framework | Next.js 14 (App Router) |
 | UI | React 18, TypeScript, CSS Modules / globals |
 | Images | `next/image` for banners and product cards |
-| Contact | Resend API via `/api/contact` |
+| Contact | Resend API via `/api/enquiry` |
 | SEO | Per-page metadata, Open Graph, Twitter cards, sitemap, robots, web manifest, Organization JSON-LD |
 | Hosting | [Vercel](https://hostinger-etil.vercel.app) |
 
@@ -26,7 +26,7 @@ flowchart LR
   end
   subgraph next [Next.js 14]
     Layout[layout.tsx + metadata]
-    API["/api/contact"]
+    API["/api/enquiry"]
     Static[public assets]
   end
   subgraph external [External]
@@ -40,7 +40,7 @@ flowchart LR
   next --> Vercel
 ```
 
-**Request flow:** visitors load App Router pages rendered with shared layout, header, and footer. The contact form POSTs to `/api/contact`, which validates input, checks a honeypot field, and sends email through Resend when configured.
+**Request flow:** visitors load App Router pages rendered with shared layout, header, and footer. The contact form POSTs to `/api/enquiry`, which validates input, checks a honeypot field, and sends email through Resend when configured.
 
 ## Project structure
 
@@ -54,7 +54,7 @@ app/
   team/                 Team page
   contact/              Contact form
   privacy/              Privacy policy
-  api/contact/          Contact form handler (Resend)
+  api/enquiry/          Contact form handler (Resend)
   api/vehicles/         Vehicles API route
   sitemap.ts            Dynamic sitemap
   robots.ts             Robots.txt

@@ -124,20 +124,21 @@ CONTACT_FROM_EMAIL=ETIL Website <onboarding@resend.dev>
 
 ## Deployment
 
-The site is deployed on **Vercel** and auto-builds from the `master` branch:
+**Production** is hosted on **Hostinger Business** (Node.js Web Apps) at [https://www.exceltradeint.com](https://www.exceltradeint.com).
 
-- **Build command:** `npm run build`
-- **Output:** Next.js default (`.next`)
-- **Live URL:** [https://hostinger-etil.vercel.app](https://hostinger-etil.vercel.app)
+The app is connected to GitHub (`kaybee77/hostinger-etil`, `master` branch). Every push to `master` triggers an automatic Hostinger build and deploy.
 
-To deploy manually or self-host:
+| Setting | Value |
+| --- | --- |
+| Install command | `npm ci` |
+| Build command | `npm run build` |
+| Start command | `npm run start -- -p $PORT` |
+| Node.js version | 20.x |
+| Output directory | `.next` |
 
-```bash
-npm run build
-npm run start
-```
+**Staging** remains available on [hostinger-etil.vercel.app](https://hostinger-etil.vercel.app).
 
-Set the environment variables above in your hosting provider's dashboard before enabling the contact form in production.
+Set `RESEND_API_KEY`, `CONTACT_TO_EMAIL`, and `CONTACT_FROM_EMAIL` in the Hostinger Node.js dashboard before enabling the contact form in production.
 
 ## License
 

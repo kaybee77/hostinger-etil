@@ -1,7 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-
-const TO_EMAIL = process.env.CONTACT_TO_EMAIL || "info@exceltradeint.com";
-const FROM_EMAIL = process.env.CONTACT_FROM_EMAIL || "ETIL Website <onboarding@resend.dev>";
+import { contactConfig, isValidEmail } from "../../lib/contactConfig";
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method !== "POST") {
@@ -24,7 +22,11 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     return res.status(400).json({ error: "Please provide your name, email, and a message." });
   }
 
-  const apiKey = process.env.RESEND_API_KEY;
+  if (!isValidEmail(email)) {
+    return res.status(400).json({ error: "Please provide a valid email address." });
+  }
+
+  const apiKey = contactConfig.resendApiKey;
   if (!apiKey) {
     console.error("RESEND_API_KEY is not set; contact form submission was not delivered.");
     return res.status(503).json({
@@ -51,8 +53,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        from: FROM_EMAIL,
-        to: [TO_EMAIL],
+        from: contactConfig.fromEmail,
+        to: [contactConfig.toEmail],
         reply_to: email,
         subject: `Website enquiry from ${name}`,
         text,

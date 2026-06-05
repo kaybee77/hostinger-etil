@@ -25,17 +25,19 @@ Connect the repo in hPanel so every push to `master` rebuilds automatically:
 
 > **Important:** Connect GitHub in hPanel (steps above) so future pushes to `master` auto-redeploy. The initial production deploy was done via the Hostinger API; ongoing auto-deploy requires the GitHub integration in hPanel.
 
-## Environment variables
+## Environment variables (contact form)
 
-Set in **Node.js dashboard → Environment Variables**:
+Set in **Node.js dashboard → Environment Variables** (or import [`.env.example`](../.env.example)):
 
 | Variable | Example |
 | --- | --- |
 | `RESEND_API_KEY` | `re_...` (secret) |
 | `CONTACT_TO_EMAIL` | `info@exceltradeint.com` |
-| `CONTACT_FROM_EMAIL` | `ETIL Website <onboarding@resend.dev>` |
+| `CONTACT_FROM_EMAIL` | `ETIL Website <noreply@exceltradeint.com>` |
 
 Redeploy after changing env vars.
+
+**Full Resend setup guide:** [CONTACT_FORM_SETUP.md](./CONTACT_FORM_SETUP.md)
 
 ## DNS
 

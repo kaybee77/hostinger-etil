@@ -96,21 +96,19 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## Environment variables
 
-Create a `.env.local` file in the project root:
+Copy [`.env.example`](.env.example) to `.env.local` for local development:
+
+```bash
+cp .env.example .env.local
+```
 
 | Variable | Required | Description |
 | --- | --- | --- |
-| `RESEND_API_KEY` | Optional | Resend API key for the contact form. When unset, submissions return a clear 503 message directing users to email directly. |
-| `CONTACT_TO_EMAIL` | Optional | Inbox for contact submissions. Defaults to `info@exceltradeint.com`. |
-| `CONTACT_FROM_EMAIL` | Optional | Sender address. Defaults to `ETIL Website <onboarding@resend.dev>` until a domain is verified in Resend. |
+| `RESEND_API_KEY` | Yes (production) | Resend API key for the contact form |
+| `CONTACT_TO_EMAIL` | Optional | Inbox for submissions (default: `info@exceltradeint.com`) |
+| `CONTACT_FROM_EMAIL` | Optional | Sender address (use a verified `@exceltradeint.com` address in production) |
 
-Example:
-
-```env
-RESEND_API_KEY=re_xxxxxxxxxxxx
-CONTACT_TO_EMAIL=info@exceltradeint.com
-CONTACT_FROM_EMAIL=ETIL Website <onboarding@resend.dev>
-```
+See **[docs/CONTACT_FORM_SETUP.md](docs/CONTACT_FORM_SETUP.md)** for Resend account setup, domain verification, and Hostinger configuration.
 
 ## Design choices
 

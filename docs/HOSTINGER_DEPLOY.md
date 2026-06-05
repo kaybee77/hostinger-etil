@@ -23,6 +23,8 @@ Connect the repo in hPanel so every push to `master` rebuilds automatically:
 5. Domain: `exceltradeint.com`
 6. Add environment variables (see below), then **Deploy**
 
+> **Important:** Connect GitHub in hPanel (steps above) so future pushes to `master` auto-redeploy. The initial production deploy was done via the Hostinger API; ongoing auto-deploy requires the GitHub integration in hPanel.
+
 ## Environment variables
 
 Set in **Node.js dashboard → Environment Variables**:

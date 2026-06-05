@@ -74,11 +74,29 @@ export default function AboutPage() {
             <h2 className="heading-line">A distinguished engineering supply company</h2>
             <p className="muted">Excel Trade International Ltd is a distinguished UK-based engineering supply company, specialising in the strategic sourcing and supply of high-quality engineering products. We pride ourselves on our ability to provide exceptional expertise and solutions to companies operating within West Africa.</p>
             <p className="muted">We are dedicated to fostering long-term relationships with our clients and partners, ensuring mutual growth and success in the region.</p>
+            <div className="about-story-image">
+              <Image
+                src="/ourstory.png"
+                alt="ETIL our story image"
+                width={720}
+                height={480}
+                priority
+              />
+            </div>
           </div>
           <div>
             <span className="eyebrow">Regional presence</span>
             <h2 className="heading-line">Trusted across West Africa</h2>
             <p className="muted">With a robust presence in West Africa, Excel Trade International Ltd has established itself as a trusted and reliable partner. Our deep understanding of the local markets and regulatory environments enables us to offer customised solutions that meet the unique needs of our clients in the region.</p>
+            <div className="about-story-image">
+              <Image
+                src="/AdobeStock_228562363.jpeg"
+                alt="ETIL trusted across West Africa"
+                width={720}
+                height={480}
+                priority
+              />
+            </div>
             <div className="facts">
               <div className="fact"><strong>HQ</strong><span>London, UK</span></div>
               <div className="fact"><strong>Markets</strong><span>6 countries</span></div>

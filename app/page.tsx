@@ -41,6 +41,14 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section className="section section-muted">
+        <div className="wrap trust-strip-grid" aria-label="Market and trust signals">
+          <span>Trusted by engineering teams across West Africa</span>
+          <span>UK sourcing expertise with local delivery support</span>
+          <span>Specialist supply for petrochemical, mining, and industrial sectors</span>
+        </div>
+      </section>
+
       <section className="stats-bar" aria-label="Key figures">
         <div className="wrap">
           <div className="stats-grid">
@@ -66,7 +74,15 @@ export default function HomePage() {
 
       <section className="section">
         <div className="wrap two-col">
-          <div>
+          <article className="section-card">
+            <span className="section-image">
+              <Image
+                src="/wwa.png"
+                alt="Who we are illustration"
+                width={520}
+                height={320}
+              />
+            </span>
             <span className="eyebrow">Who we are</span>
             <h2 className="heading-line">A trusted engineering supply partner</h2>
             <p className="muted">Excel Trade International Ltd is a distinguished UK-based engineering supply company, specialising in the strategic sourcing and supply of high-quality engineering products. We pride ourselves on providing exceptional expertise and solutions to companies operating within West Africa.</p>
@@ -76,8 +92,16 @@ export default function HomePage() {
               <li>Long-standing client relationships across 6 countries</li>
             </ul>
             <Link href="/about" className="btn btn-ghost">Learn about ETIL</Link>
-          </div>
-          <div>
+          </article>
+          <article className="section-card">
+            <span className="section-image">
+              <Image
+                src="/wwd.png"
+                alt="What we do illustration"
+                width={520}
+                height={320}
+              />
+            </span>
             <span className="eyebrow">What we do</span>
             <h2 className="heading-line">Comprehensive industrial supply</h2>
             <p className="muted">We deliver tailored expertise and comprehensive supply support across four core product lines, serving the petrochemical, mining, and general industrial sectors.</p>
@@ -88,7 +112,7 @@ export default function HomePage() {
               <li>Specialised equipment for water supply and treatment</li>
             </ul>
             <Link href="/services" className="btn btn-ghost">View industrial supply</Link>
-          </div>
+          </article>
         </div>
       </section>
 

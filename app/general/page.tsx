@@ -34,14 +34,41 @@ export default function GeneralPage() {
         <div className="wrap">
           <div className="card-grid">
             <article className="card">
+              <span className="card-image">
+                <Image
+                  src="/household.png"
+                  alt="Household supplies for residential living"
+                  fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 300px"
+                  style={{ objectFit: "cover" }}
+                />
+              </span>
               <h3>Household supplies</h3>
               <p>Cleaning chemicals, kitchen essentials, furniture, home entertainment systems, lighting and smart home automation products for residential, staff housing and serviced living spaces.</p>
             </article>
             <article className="card">
+              <span className="card-image">
+                <Image
+                  src="/generalpage.png"
+                  alt="Hotel supplies and guestroom amenities"
+                  fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 300px"
+                  style={{ objectFit: "cover" }}
+                />
+              </span>
               <h3>Hotel supplies</h3>
               <p>Quality linen, guestroom amenities, hospitality disposables, F&B service goods and facility support products for hotels and resorts.</p>
             </article>
             <article className="card">
+              <span className="card-image">
+                <Image
+                  src="/school.png"
+                  alt="School supplies and classroom essentials"
+                  fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 300px"
+                  style={{ objectFit: "cover" }}
+                />
+              </span>
               <h3>School supplies</h3>
               <p>Stationery, classroom furniture, safety equipment and campus maintenance essentials for schools, colleges and training centres.</p>
             </article>
